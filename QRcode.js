@@ -23,7 +23,7 @@ QRCode.toDataURL(str, { toSJISFunc: toSJIS }, function (err, url) {
   console.log("FIG2--",url)
 })
 
-//Stage 3
+//Stage 3 :Means another way to generate the qr code
 var uploadPath = path.normalize(process.cwd() + '/uploads/file.png');
 QRCode.toFile(uploadPath, str, {
     color: {
